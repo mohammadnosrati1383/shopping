@@ -1,0 +1,82 @@
+.text-red{
+    color: red;
+}
+.text-green{
+    color:green
+}
+
+
+/* headings*/
+.h1{
+    font-size: 18pt;
+}
+.h2{
+    font-size: 16.5pt;
+}
+.h3{
+    font-size: 15pt;
+}
+.h4{
+    font-size: 13.5pt;
+}
+.slider{
+    background-color: whitesmoke;
+}
+.price-rial::after{
+    content: "ریال";
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+
+.slider{
+
+}
+.slider >slider-body{
+ 
+}
+.slider slider-item{
+ display: inline-block;
+ display: flex;
+}
+.slider-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+.book{
+    margin: 20px 70px;
+}
+.slider-title{
+    background-color: red;
+    margin: 10px 720px;
+}
+.text-sport{
+    background-color: red;
+    margin: 20px 5px 0px 1400px;
+}
+.slider-title1{
+    margin: 5px 700px;
+    background-color: red;
+}
+.text-blue{
+    color: rgb(156, 156, 248);
+}
+.menu-container{
+    position: relative;
+    background-color: #1b1b1b;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 20px;
+    width: 150px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: width 0.4s;
+}

@@ -1,0 +1,123 @@
+html {
+    direction: rtl;
+}
+
+.title> li{
+  background-color: aliceblue;
+  display: inline-block;
+   border-style: groove;
+   padding: 5px 10px;
+   margin: 6px;
+}
+
+
+
+.titlebar{
+   display: flex;
+   justify-content: space-around;
+}
+.search{
+    
+}
+#gsearch{
+    padding: 5px 50px;
+    margin: 25px 5px;
+}
+#search{
+    padding: 2px 5px;
+}
+
+.menu {
+display: flex;
+justify-content: space-evenly;
+background-color:gainsboro;
+}
+.content{
+    background-color: turquoise;
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px 30px;
+    margin: 50px 100px;
+
+}
+#mosh{
+    padding: 30px;
+}
+#takhfif{
+    margin: 2px;
+    display: flex;
+}
+.mobile{
+   display: flex;
+}
+#takhfif{
+    margin: 20px 170px;
+}
+#f{
+    margin: 36px 80px;
+}
+#ff{
+    margin: 40px 13px;
+    display: block;
+}
+#hard{
+    list-style-type: square;
+}
+#c{
+    list-style-type: circle;
+}
+   
+
+#a{
+    color: red;
+    font-size:27px;
+    
+}
+#b{
+    font-size: 45px;
+}
+#c{
+    color: darkgray;
+}
+#d{
+    color: darkgray;
+}
+#e{
+    margin: 10px;
+    color:darkslategray;
+    font-size: 30px;
+}
+#f{
+    font-size: 40px;
+    margin: 6px;
+}
+#camera{
+    background-color: red;
+    
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.camera{
+    background-color:whitesmoke;
+
+}
+.camer{
+    display: flex;
+    justify-content: space-between;
+}
+.sl{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    border-style: dotted;
+}
+.end{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
