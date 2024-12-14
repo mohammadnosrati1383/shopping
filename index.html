@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="utilities.css">
 </head>
@@ -272,7 +273,7 @@
 
     <div class="tab">
         <div class="tab-tabs">
-            <div class="tab-item" data-target="watch">ساعت مچی</div>
+            <div class="tab-item" data-target="watch"><i class="fa fa-watch"></i> ساعت مچی</div>
             <div class="tab-item" data-target="rhinestones">بدلیجات</div>
             <div class="tab-item" data-target="cosmetics">آرایش و بهداشتی</div>
             <div class="tab-item" data-target="toy">اسباب بازی</div>
@@ -281,45 +282,53 @@
 
         </div>
         <div class="tab-contents">
-            <div class="tab-content" id="watch">watch</div>
-            <div class="tab-content" id="rhinestones">rhinestones</div>
-            <div class="tab-content" id="cosmetics">cosmetics</div>
-            <div class="tab-content" id="toy">toy</div>
-            <div class="tab-content" id="sport">sport</div>
+            <div class="tab-content" id="watch">
+                <img src="1.jpg" >
+                <img src="1.jpg" >
+                <img src="1.jpg" >
+                <img src="1.jpg" >
+                <img src="1.jpg" >
+            </div>
+            <div class="tab-content" id="rhinestones">
+                <img src="2.jpg" >
+                <img src="2.jpg" >
+                <img src="2.jpg" >
+                <img src="2.jpg" >
+                <img src="2.jpg" >
+            </div>
+            <div class="tab-content" id="cosmetics">
+                <img src="3.jpg">
+                <img src="3.jpg">
+                <img src="3.jpg">
+                <img src="3.jpg">
+                <img src="3.jpg">
+            </div>
+            <div class="tab-content" id="toy">
+                <img src="4.jpg" >
+                <img src="4.jpg" >
+                <img src="4.jpg" >
+                <img src="4.jpg" >
+                <img src="4.jpg" >
+            </div>
+            <div class="tab-content" id="sport">
+                <img src="8.jpg" >
+                <img src="8.jpg" >
+                <img src="8.jpg" >
+                <img src="8.jpg" >
+                <img src="8.jpg" >
+            </div>
         </div>
     </div>
 
 
 
-    <img id="my-pi" src="p20lite-listimage-blac.png" />
+    <img id="my-pi" src="images/p20lite-listimage-blac.png" />
     <img id="My_pic" src="1.jpg" />
     <button data-target="MyMessage();"> کلیک کنید</button>
     <button data-target="MyClick();">click</button>
     <script>
 
-        function MyMessage() {
-
-            // var Myhtml = document.body;
-            // var h2 = document.createElement('h2');
-            //h2.innerText = 'hhoooombvvv'
-            //Myhtml.append(h2)
-
-            let picture = document.getElementById('my-pi')
-            let d = picture.style.display;
-            picture.style.display = d == 'none' ? 'block' : 'block'
-
-
-        }
-
-        function MyClick() {
-
-            let picture1 = document.getElementById('My_pic')
-            let dd = picture1.style.display;
-            picture1.style.display = dd == 'none' ? 'block' : 'block'
-            picture.style.display = d == 'none'
-        }
-
-       
+    
 
         var tabElements = [...document.getElementsByClassName('tab')];
 

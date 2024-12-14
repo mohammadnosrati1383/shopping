@@ -15,16 +15,45 @@
         </div>
 
         <div class="tab-contents">
-            <div class="content" id="mohammad">mohammad</div>
-            <div class="content" id="mobin">mobin</div>
-            <div class="content" id="arian">arian</div>
-            <div class="content" id="borzo">borzo</div>
+            <div class="tab-content" id="mohammad">
+                <img src="">
+            </div>
+            <div class="tab-content" id="mobin">mobin</div>
+            <div class="tab-content" id="arian">arian</div>
+            <div class="tab-content" id="borzo">borzo</div>
         </div>
     </div>
     <script>
-function showProducts(tabname){
-    
-}
+
+var tabelement = [... document.getElementsByClassName('tab')];
+tabelement.forEach(elem=>{
+
+ configTab(elem);
+
+    function configTab(elem){
+        var contents = [...elem.getElementsByClassName('tab-content')];
+        contents.forEach(d =>d.style.display = 'none')
+
+        var tabs = [...document.getElementsByClassName('tab-item')];
+        tabs.forEach(tab=>{
+            tab.addEventListener('click' , ontabclick)
+        })
+    }
+
+    function ontabclick(e){
+       let contents = [...elem.getElementsByClassName('tab-content')];
+       contents.forEach(c=> c.style.display ='none')
+
+       let target = e.target.getAttribute('data-target')+"";
+
+       let targetElement = document.getElementById(target);
+
+       targetElement.style.display='block';
+
+    }
+});
+
+
 
     </script>
     
