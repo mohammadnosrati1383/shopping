@@ -208,3 +208,45 @@ html {
     display: flex;
     justify-content: space-between;
 }
+
+.tab-item:hover {
+    color: chocolate;
+}
+
+
+.slider-navigation {
+    position: absolute;
+}
+
+.m-slider {
+    position: relative;
+    width: 82%;
+    margin: 0 auto;
+}
+
+.m-slider>.navigations {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+
+}
+.m-slider> .navigations>.arrows{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.m-slider>.m-slides {
+
+    white-space: nowrap;
+    overflow: auto;
+    scroll-behavior: smooth;
+    
+
+}
+
+.m-slider>.m-slides>.slider-slide {
+    display: inline-block;
+    margin: 20px;
+}
